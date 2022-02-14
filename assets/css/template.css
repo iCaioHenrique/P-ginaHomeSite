@@ -4,6 +4,7 @@
 body{
     margin:0;
     padding:0;
+    padding-bottom: 300px;
 }
 
 header{
@@ -123,31 +124,131 @@ nav a:hover {
     font-size:12px;
     margin-top:20px;
     margin-bottom:20px;
-    }
-    .banner_options a {
-    display:inline-block;
-    border:1px solid#FFFFFF;
-    padding:5px;
-    color:#FFFFFF;
-    font-size:13px;
-    text-decoration:none;
-    }
+}
 
-    .banner_title{
-        font-size:21px;
-    }
+.banner_options a {
+display:inline-block;
+border:1px solid#FFFFFF;
+padding:5px;
+color:#FFFFFF;
+font-size:13px;
+text-decoration:none;
+}
 
-    .banner_desc{
-        font-size: 12px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+.banner_title{
+font-size:21px;
+}
 
-    .banner_options a{
-        display:inline-block;
-        border:1px solid #FFF;
-        padding:5px;
-        color:#FFF;
-        font-size:13px;
-        text-decoration: none;
-    }
+.banner_desc{
+font-size: 12px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.banner_options a{
+display:inline-block;
+border:1px solid #FFF;
+padding:5px;
+color:#FFF;
+font-size:13px;
+text-decoration: none;
+}
+
+
+.banner3 {
+border-bottom: 1px solid #ccc;
+margin:0px;
+}
+.banner-table ul{
+display:flex;
+justify-content:space-between;
+margin:0px;
+padding:0px;
+}
+.banner-table li{
+font-size:12px;
+list-style:none;
+margin:0px;
+padding:0px;
+margin-top:20px;
+padding-bottom:10px;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex:2;
+
+}
+
+#geral aside{
+    flex:1;
+}
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text{
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    width:50px;
+    height:3px;
+    background-color: #36a9e1;
+    margin-top:10px;
+}
+
+
+.quadrado1,
+.quadrado2,
+.quadrado3,
+.quadrado4,
+.quadrado5,
+.quadrado6 {
+   
+    width: 150px;
+    height: 150px;
+    background-color:#36a9e1;
+    margin-block: 8px;
+ }
+ 
+.q1,
+.q2,
+.q3 {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.texto {
+    margin-top: 15px;
+}
+.bar1,
+.bar2,
+.bar3,
+.bar4 {
+    border-block-end: 2px solid rgb(192, 185, 185);
+    margin-block: 10px;
+    padding-bottom: 2px;
+   
+}
+.texto {
+    margin-bottom: 25px;
+}
+.t1,
+.t2,
+.t3 {
+    display: flex;
+}
+.foto {
+    padding-right: 10px;
+    width: 15px;
+    
+    
+}
