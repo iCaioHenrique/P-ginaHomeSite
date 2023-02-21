@@ -341,16 +341,18 @@ footer .widget_title_text{
     }
     .banner_headline h1{
         font-size: 55px;
+        text-shadow: 1px 1px 2px #6d6d6d;
+
     }
     .banner_headline h2{
-        font-size: 17px;
+        text-shadow: 1px 1px 2px #6d6d6d;
     }
     .banner_options{
         height: auto;
         flex-direction: column;
     }
     #geral section{
-        margin-top: 100px;
+        margin-top: 130px;
         padding: 20px;
     }
     #geral aside{
@@ -368,6 +370,7 @@ footer .widget_title_text{
     }
     .footer_copy{
         padding: 20px;
+        text-align: center;
     }
     header .container{
         flex-direction: row;
